@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-grey">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container has-background-link-light">
+    <div class="has-text-left my-5 mx-5">
+      <h1 class="title is-5">Регистрация</h1>
+    </div>
+    <div class="columns is-gapless mb-2">
+      <div class="column is-1"></div>
+      <div class="column">
+        <h1 class="title is-5">Вы региструетесь как</h1>
+      </div>
+    </div>
+    <div class="columns is-gapless mt-0">
+      <div class="column is-1"></div>
+      <div class="column">
+        <div>
+          <div class="control mb-1">
+            <label class="radio">
+              <input type="radio" name="userType" value="buyer">
+              <strong>Покупатель</strong>
+            </label>
+          </div>
+          <div class="control mb-1">
+            <label class="radio">
+              <input type="radio" name="userType" value="provider">
+              <strong>Поставщик</strong>
+            </label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="columns mt-6">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Эл. почта</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-left my-0 mx-5">
+      <h1 class="title is-5">Название организации</h1>
+    </div>
+
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>ИП или Юр. лицо</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>ИНН</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-left my-0 mx-5">
+      <h1 class="title is-5">Фактический адрес</h1>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Ваш город</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Улица</p>
+      </div>
+      <div class="column is-3">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-1 has-text-right mt-3 mr-4">
+        <p>Дом/стр.</p>
+      </div>
+      <div class="column is-3">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-1 has-text-right mt-3 mr-4">
+        <p>Офис</p>
+      </div>
+      <div class="column is-1">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Телефон</p>
+      </div>
+
+      <div class="column is-5">
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field is-expanded">
+              <div class="field has-addons">
+                <p class="control">
+                  <a class="button is-static">
+                    +7
+                  </a>
+                </p>
+                <p class="control is-expanded">
+                  <input class="input" type="tel">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0" id="siteCompany">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Сайт вашей компании</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-left my-3 mx-5">
+      <h1 class="title is-5">Виды деятельности</h1>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Магазин</p>
+      </div>
+      <div class="column is-2 has-text-left mt-3 mr-4">
+        <input type="checkbox">
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Региональная сеть магазинов</p>
+      </div>
+      <div class="column is-2 has-text-left mt-3 mr-4">
+        <input type="checkbox">
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Федеральная сеть магазинов</p>
+      </div>
+      <div class="column is-2 has-text-left mt-3 mr-4">
+        <input type="checkbox">
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Интернет-магазин</p>
+      </div>
+      <div class="column is-2 has-text-left mt-3 mr-4">
+        <input type="checkbox">
+      </div>
+    </div>
+    <div class="columns mt-0 mb-0">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Автосервис</p>
+      </div>
+      <div class="column is-2 has-text-left mt-3 mr-4">
+        <input type="checkbox">
+      </div>
+    </div>
+    <div class="columns mt-0 mb-6">
+      <div class="column is-2 has-text-right mt-3 mr-4">
+        <p>Прочее</p>
+      </div>
+      <div class="column is-5">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns m-6">
+      <div class="column is-3">
+        <button id="saveButton" class="button is-link is-fullwidth">
+          Отправить заявку
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+  <!--modal-->
+  <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content has-background-white py-5 px-5 has-text-centered">
+      <h1 class="title mb-6 mt-6">Заявка отправлена</h1>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
